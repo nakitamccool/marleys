@@ -94,40 +94,6 @@ html, body {
   color: blue;
 }
 
-#split-pane-or {
-  font-size: 2em;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-@media (max-width: 925px) {
-  #split-pane-or {
-    top:15%;
-  }
-}
-#split-pane-or > div img {
-  height: 2.5em;
-}
-@media (max-width: 500px) {
-  #split-pane-or {
-    position: absolute;
-    top: 50px;
-  }
-  #split-pane-or > div img {
-    height:2em;
-  }
-}
-@media(min-width: 500px) {
-  #split-pane-or {
-    font-size: 3em;
-  }
-}
 .big {
   font-size: 2em;
 }
