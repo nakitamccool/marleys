@@ -11,11 +11,11 @@ html, body {
 }
 
 .frontend-side {
-  background-image: url("./assets/media/funeral.jpg");
+  background-image: url("../assets/media/funeral.jpg");
 }
 
 .uiux-side {
-  background-image: url("./assets/media/coach.jpg");
+  background-image: url("../assets/media/coach.jpg");
 }
 
 .split-pane {
