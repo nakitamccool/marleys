@@ -1,0 +1,26 @@
+body, html {
+  height: 100%;
+}
+
+#marleystitle {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  color: var(--primary);
+}
+
+.option {
+  padding-top: 25%;
+}
+
+div#left {
+  background: #383e38;
+}
+
+p {
+  font-size: 8em;
+  font-weight: 800;
+}
