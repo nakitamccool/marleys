@@ -50,7 +50,7 @@ html, body {
   line-height: 1.6em;
   margin-bottom: 1em;
 }
-.split-pane > div .text-content .big {
+.split-pane > div .text-content {
   font-size: 2em;
 }
 .split-pane > div img {
@@ -117,12 +117,6 @@ html, body {
 }
 #slogan img {
   height: 0.7em;
-}
-.bold {
-	text-transform:uppercase;
-}
-.big {
-	font-weight:800;
 }
 
 a.white-text,
