@@ -7,17 +7,12 @@
         <meta name="author" content="" />
         <title>MARLEY | Funeral Directors</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="lib/startbootstrap/assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- Third party plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="lib/startbootstrap/css/styles.css" rel="stylesheet" />
-        <!-- Custom styling -->
+        <link href="static/lib/startbootstrap/styles.css" rel="stylesheet" />
         <link href="static/css/style.css" rel="stylesheet" />
     </head>
     <body id="page-top">
@@ -29,6 +24,17 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#funeralservices">Services</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Arranging a funeral
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Coffins and caskets</a>
+                              <a class="dropdown-item" href="#">Burials and cremations</a>
+                              <a class="dropdown-item" href="#">Funeral transport</a>
+                              <a class="dropdown-item" href="#">Care of the Deceased</a>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#funeralrepatriation">Repatriation</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#funeralcontact">Contact us</a></li>
                     </ul>
@@ -186,15 +192,35 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                        <i class="fas fa-phone fa-3x mb-3 text-white"></i>
-                        <div class="text-white">+353 74 91 33313</div>
-                    </div>
-                    <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-white"></i>
-                        <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a class="d-block white-text" href="mailto:info@marleys.ie">info@marleys.ie</a>
-                    </div>
+                    <a href="tel:0749133313">
+                        <div class="col-lg-2 ml-auto mr-auto text-center mb-5 mb-lg-0">
+                            <i class="fas fa-phone fa-3x mb-3 text-white"></i>
+                            <p class="text-white">Phone</p>
+                            <a class="d-block text-white" href="tel:0749133313">+353 74 91 33313</a>
+                        </div>
+                    </a>
+                    <a href="tel:0878116830">
+                        <div class="col-lg-2 ml-auto mr-auto text-center mb-5 mb-lg-0">
+                            <i class="fas fa-mobile-alt fa-3x mb-3 text-white"></i>
+                            <p class="text-white">Eugene</p>
+                            <a class="d-block text-white" href="tel:0878116830">+353 87 811 6830</a>
+                        </div>
+                    </a>
+                    <a href="tel:0872414714">
+                        <div class="col-lg-2 ml-auto mr-auto text-center mb-5 mb-lg-0">
+                            <i class="fas fa-mobile-alt fa-3x mb-3 text-white"></i>
+                            <p class="text-white">Francie</p>
+                            <a class="d-block text-white" href="tel:0872414714">+353 87 241 4714</a>
+                        </div>
+                    </a>
+                    <a href="mailto:info@marleys.ie">
+                        <div class="col-lg-2 ml-auto mr-auto text-center">
+                            <i class="fas fa-envelope fa-3x mb-3 text-white"></i>
+                            <p class="text-white">Email</p>
+                            <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
+                            <a class="d-block white-text" href="mailto:info@marleys.ie">info@marleys.ie</a>
+                        </div>
+                    </a> 
                 </div>
             </div>
         </section>
@@ -209,6 +235,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
-        <script src="lib/startbootstrap/js/scripts.js"></script>
+        <script src="static/lib/startbootstrap/scripts.js"></script>
     </body>
 </html>
