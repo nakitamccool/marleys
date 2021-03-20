@@ -126,3 +126,14 @@ a.white-text:active {
   text-decoration: none;
   background-color: transparent;
 }
+
+ul.table-legend{
+  list-style-type: none;
+  padding: 0px;
+}
+ul.table-legend li {
+  float: left;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+}
