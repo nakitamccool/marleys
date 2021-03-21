@@ -127,6 +127,20 @@ a.white-text:active {
   background-color: transparent;
 }
 
+
+ul.table-legend{
+  list-style-type: none;
+  padding: 0px;
+}
+ul.table-legend li {
+  float: left;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  font-weight: 300;
+}
+.table th, .table td {
+  border-top: none;
+
 /*** Nav dropdown ***/
 .dropdown-menu {
   border: none;
