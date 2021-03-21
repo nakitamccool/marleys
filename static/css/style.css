@@ -137,3 +137,6 @@ ul.table-legend li {
   letter-spacing: 0.3px;
   font-weight: 300;
 }
+.table th, .table td {
+  border-top: none;
+}
