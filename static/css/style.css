@@ -127,6 +127,7 @@ a.white-text:active {
   background-color: transparent;
 }
 
+
 ul.table-legend{
   list-style-type: none;
   padding: 0px;
@@ -139,4 +140,26 @@ ul.table-legend li {
 }
 .table th, .table td {
   border-top: none;
+
+/*** Nav dropdown ***/
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-item {
+  padding: 0.25rem 1.5rem;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #28a745;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #28a745;
 }
