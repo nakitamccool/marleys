@@ -195,7 +195,7 @@ h5 {
 
 .timetable-full {
     background-image: url("../assets/media/300.jpg");
-    min-height: 800px;
+    height: 800px;
     /* You must set a specified height */
     background-position: center;
     /* Center the image */
