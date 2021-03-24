@@ -193,21 +193,9 @@ h5 {
     margin-top: 5%;
 }
 
-.timetable-thumbnail {
-    background-image: url("../assets/media/300.jpg");
-    height: 160px;
-    /* You must set a specified height */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: contain;
-    /* Resize the background image to cover the entire container */
-}
-
 .timetable-full {
     background-image: url("../assets/media/300.jpg");
-    height: 800px;
+    min-height: 800px;
     /* You must set a specified height */
     background-position: center;
     /* Center the image */
