@@ -204,3 +204,28 @@ h5 {
     background-size: contain;
     /* Resize the background image to cover the entire container */
 }
+
+
+/* Funerals Coffind */
+.card-body {
+    min-height: 190px;
+    min-width: 300px;
+    margin-right: 5px;
+}
+.card-deck{
+    overflow: auto;
+    flex-direction: row;
+}
+.card-deck {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card {
+    min-width: 45%;
+}
+img.card-img-top {
+    object-fit: cover;
+}
