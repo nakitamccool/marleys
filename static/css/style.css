@@ -260,3 +260,9 @@ h5 {
 .card-deck::-webkit-scrollbar-thumb:hover {
   background: #247236; 
 }
+
+
+/* funeral contact */
+.funeral-contact svg{
+    height: 40px;
+}
