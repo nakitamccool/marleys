@@ -212,20 +212,49 @@ h5 {
     min-width: 300px;
     margin-right: 5px;
 }
-.card-deck{
-    overflow: auto;
-    flex-direction: row;
-}
+
 .card-deck {
     display: flex;
     flex-flow: row;
     flex-direction: row;
     margin-right: -15px;
     margin-left: -15px;
+    overflow: auto;
 }
 .card {
-    min-width: 45%;
+    min-width: 48%;
+    border: none;
 }
-img.card-img-top {
+.card img{
     object-fit: cover;
+    height: 300px;
+    width: 100%;
+    display: block;
+
+}
+@media(max-width: 500px) {
+    .card {min-width: 100%;}
+    .card img{height: 300px;}
+}
+
+/* width */
+.card-deck::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+.card-deck::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.card-deck::-webkit-scrollbar-thumb {
+  background: #28a745; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.card-deck::-webkit-scrollbar-thumb:hover {
+  background: #247236; 
 }
