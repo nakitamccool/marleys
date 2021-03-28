@@ -31,6 +31,21 @@ body {
     font-size: 1.5rem;
 }
 
+.landing-page-brand {
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 50px;
+    line-height: 75px;
+}
+
 .landing-page {
     background-color: black;
 }
@@ -79,6 +94,9 @@ body {
 @media(max-width: 499px) {
     .frontend-side {
         border-top: 5px solid black;
+    }
+    .landing-page-brand {
+        top: 5%;
     }
 }
 
@@ -247,7 +265,7 @@ h5 {
 }
 
 
-/* Funerals Coffind */
+/* Funeral Coffins */
 
 .card-body {
     min-height: 190px;
