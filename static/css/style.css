@@ -13,7 +13,11 @@ body {
 
 
 /* ========================================================================= */
+
+
 /*                                Landing Page                               */
+
+
 /* ========================================================================= */
 
 .landing-page h1 {
@@ -51,7 +55,7 @@ body {
 }
 
 .travel-side {
-    background-image: url("../assets/media/buses/buswname.jpg");
+    background-image: url("../assets/media/buses/lineupfromleft.jpg");
 }
 
 .split-pane {
@@ -330,12 +334,15 @@ h5 {
     background: #247236;
 }
 
+
 /* funeral useful links */
-.useful-links p{
+
+.useful-links p {
     font-size: 15px;
 }
+
 @media(max-width: 500px) {
-    .useful-links p{
+    .useful-links p {
         font-size: 11px;
     }
 }
